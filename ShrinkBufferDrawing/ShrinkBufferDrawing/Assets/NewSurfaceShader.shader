@@ -33,7 +33,7 @@
 
 				sampler2D _MainTex;
 				float4 _MainTex_ST;
-				fixed _Color;
+				fixed4 _Color;
 
 				v2f vert (appdata v)
 				{
